@@ -1,0 +1,97 @@
+.above-navbar {
+    background-color: #2e56c5;
+    text-align: center;
+    margin: 0px;
+    padding: 2px 0px 2px 0px;
+    line-height: 1px;
+}
+
+.navbar {
+    margin: 0px;
+    /* padding: 0px 15px 0px 15px; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border:  solid black 5px; */
+}
+/* .navbar img{
+    margin-left: 15px;
+} */
+.menubar{
+    width: 25px;
+    height: 20px;
+    margin: 15px 0px 15px 20px;
+}
+.internshala{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin: 0px 0px 15px -330px;
+    /* border:  solid rgb(190, 11, 11) 1px; */
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* border:  solid rgb(190, 11, 11) 1px; */
+}
+
+.navbar ul li {
+    align-items: center;
+    /* border:  solid rgb(9, 168, 33) 2px; */
+    margin-right: 20px;
+    padding: 0px;
+    }
+
+.search {
+    width: 70px;
+    border-radius: 20px;
+    border: solid 1px gray;
+    color: black;
+    padding: 0px 10px 6px 8px;
+    text-align: center;
+    margin: 0px 50px 0px 0px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.search-img{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    transform: scale(0.7);
+    /* filter: invert(); */
+}
+
+.login {
+
+    padding: 5px;
+    color: #0095ff;
+    border: #0095ff solid 1.5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 60px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.register {
+    padding: 5px;
+    color: white;
+    background-color: #0095ff;
+    border: #0095ff solid 1.5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 60px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.foremp {
+    color: #0095ff;
+    margin-left: 30px;
+    cursor: pointer;
+    margin: 0px;
+}

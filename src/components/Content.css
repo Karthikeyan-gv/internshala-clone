@@ -1,0 +1,75 @@
+.banner{
+    /* text-align: center; */
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.bannerimg{
+   width: 100vw;
+    height: auto;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.banner span{
+    color: gold;
+}
+.banner-btn{
+    display: flex;
+}
+.login-btn-1{
+    width: 200px;
+    height: 5px;
+    border-radius: 3px;
+    padding: 23px 20px 15px 20px;
+    background-color: rgb(222, 222, 222);
+    color: rgb(72, 69, 65);
+    font-size: 0.4em;
+    text-align: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.banner-img1{
+    position: relative;
+    top: 73px;
+    left: 80px;
+    transform: scale(1.2);
+}
+.banner-img2{
+    position: relative;
+    top: 73px;
+    left: 315px;
+    transform: scale(0.9);
+}
+.login-btn-2{
+    width: 200px;
+    height: 5px;
+    border-radius: 3px;
+    padding: 23px 20px 15px 20px;
+    background-color: rgb(15, 98, 214);
+    color: white;
+    font-size: 0.4em;
+    text-align: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
+/* .banner-btn img{
+    width: 20px;
+    height: 20px;
+} */
+.des{
+    
+    font-size: 0.5em;
+    cursor: pointer;
+}
+.banner-content{
+    position: absolute;
+    text-align: start;
+    top: 60px;
+    left: 26px;
+    font-size: 1.9em;
+}

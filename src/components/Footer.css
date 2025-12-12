@@ -1,0 +1,47 @@
+.footer{
+    background-color: rgb(43, 36, 36);
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.links a:hover{
+    color: #0095ff;
+}
+.linkfooters{
+    display: inline-block;
+    width: 350px;
+    padding: 0px;
+    margin: 0px;
+    /* border: solid rgb(0, 255, 0); */
+}
+.contact{
+    display: inline-block;
+    /* border: solid rgb(255, 247, 0); */
+    width: 200px;
+}
+.contact img{    
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    filter: invert(1) brightness(100);
+    cursor: pointer;
+}
+.linkfooters img{
+    margin-left: 10px;
+    width: 140px;
+    display: inline-block;
+    cursor: pointer;
+}
+/* .footer-links{
+    display: inline-block;
+} */
+.right{
+    /* border: solid rgb(0, 251, 255); */
+    display: inline-block;
+    width: 300px;
+    margin-left: 90px;
+}

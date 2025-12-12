@@ -1,0 +1,71 @@
+.recommend{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    /* border: solid 5px rgb(24, 172, 24); */
+}
+.Recommend{
+    padding: 15px 0px 15px 0px;
+    /* border: solid black; */
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0), #ffffff4e);
+
+}
+.recommendComponent{
+    display: inline-block;
+    /* border: solid black; */
+    text-align: center;
+}
+.recommend-txt h3,h2, p{
+    text-align: start;
+    margin: 15px;
+}
+.recommendComponent-content{
+    width: 250px;
+    padding: 10px;
+    line-height: 0px;
+    border-radius: 10px;
+    margin: 10px;    
+    text-align: start;
+    background-color: white;
+    
+}
+.internship span{
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.432);
+    border-radius: 4px;
+    padding: 3px;
+    cursor: pointer;
+}
+.view{
+    text-decoration: none;
+    color: #0095ff;
+}
+.recommendComponent-content-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.row, ol{
+    /* border: solid rgb(196, 16, 16); */
+    margin: 25px;
+}
+.row ul li{
+    list-style: none;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 0.7em;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.row li:hover{
+    background-color: #0095ff;
+    color: white;
+}

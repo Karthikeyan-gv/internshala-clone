@@ -1,0 +1,26 @@
+.trending{
+    width: 1000px;
+    padding: 20px 0px 20px 0px;
+    /* border: solid rgb(252, 7, 7) 5px; */
+    background-color: white;
+}
+.trending h3{
+    text-align: start;
+    margin: 15px;
+}
+
+.trendComponent{
+    display: flex;
+    justify-content: center;
+    /* border: solid black; */
+}
+.trendComponent img{
+    margin: 5px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+.trendComponent img{
+    width: 300px;
+    border-radius: 10px;
+}

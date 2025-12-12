@@ -1,0 +1,78 @@
+.reference{
+    background-color: rgba(219, 219, 219, 0.86);
+    padding: 15px 10px 15px 10px;
+}
+.offer{
+    background-color: orange;
+    border-radius: 5px;
+    
+    color: white;
+    padding: 2px;
+}
+
+
+
+.blueBanner{
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    color: white;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* border: solid 2px black; */
+}
+.blueBanner-conent{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    text-align: start;
+    top: 0px;
+    left: -10px;
+    font-size: 1.9em;
+    /* border: solid 2px rgb(221, 11, 11); */
+    display: flex;
+}
+.emp{
+    width: 400px;
+    padding: 0px;
+    /* border: solid 2px rgb(169, 221, 11); */
+    margin-right:25px;
+    margin-left: 30px;
+}
+.blueBanner img{
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-btn{
+    display: flex;
+}
+.login-btn-1{
+    width: 200px;
+    height: 5px;
+    border-radius: 3px;
+    padding: 23px 20px 15px 20px;
+    background-color: rgb(222, 222, 222);
+    color: rgb(72, 69, 65);
+    font-size: 0.4em;
+    text-align: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.login-btn-2{
+    width: 200px;
+    height: 5px;
+    border-radius: 3px;
+    padding: 23px 20px 15px 20px;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    font-size: 0.4em;
+    text-align: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
