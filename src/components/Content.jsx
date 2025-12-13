@@ -17,7 +17,7 @@ function Content(props) {
                 <div className='banner'>
                     <div className='banner-content'>
                         <h2>India's <span>#1 platform</span></h2>
-                        <h6>For frwsher jobs, internships and courses</h6>
+                        <h6>For fresher jobs, internships and courses</h6>
                         <div className='banner-btn'>
                             <img className='banner-img1' src={img2} style={{width:20,height:20}}/>
                             <img className='banner-img2' src={img3} style={{width:20,height:20}}/>
